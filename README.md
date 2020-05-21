@@ -8,5 +8,5 @@ Everything is routed with oak package for Deno.
 
 ## Try it
 ```sh
-    deno run --allow-read --allow-net https://github.com/rouche-q/deno-react-fileserver/index.tsx  
+    deno run --allow-read --allow-net https://raw.githubusercontent.com/rouche-q/deno-react-fileserver/master/index.tsx 
 ```

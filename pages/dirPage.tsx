@@ -5,7 +5,6 @@ import ReactDOMServer from "https://dev.jspm.io/react-dom/server"
 import pageGenerator from "../utils/pagesGenerator.tsx"
 
 export default (files: any, path: string) => {
-    console.log(path)
     let fileLinks = files.map((file: Deno.DirEntry, key: number) => {
         if (file.isFile)
             return (
