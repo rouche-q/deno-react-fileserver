@@ -10,3 +10,7 @@ Everything is routed with oak package for Deno.
 ```sh
     deno run --allow-read --allow-net https://raw.githubusercontent.com/rouche-q/deno-react-fileserver/master/index.tsx ./ 
 ```
+Or if you have cloned the repo
+```sh
+    deno run --allow-read --allow-net index.tsx ./ 
+```

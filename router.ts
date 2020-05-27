@@ -1,6 +1,7 @@
 import { Router } from 'https://deno.land/x/oak/mod.ts'
 import root from "./routes/root.ts"
 import dir from "./routes/dir.ts"
+import file from "./routes/file.ts"
 
 const router = new Router()
 
@@ -14,6 +15,7 @@ for (let i = 0; i < 20; i++) {
 }
 
 router.get("/", root)
+    .get("/file", file)
     .get(dynamicPath, dir)
 
 export default router
